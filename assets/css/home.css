@@ -1,0 +1,102 @@
+/*Body*/
+body{
+	margin: 0;
+	padding: 0;
+	background-color: wheat;
+	height: 100vh;
+	width: 100vw;
+}
+/*Main*/
+main{
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+.h1-tag{
+	text-align: center;
+	font-size: 3rem;
+	font-family: serif;
+}
+/*Form*/
+form{
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+input{
+	color: limegreen;
+	text-align: center;
+	font-family: serif;
+	border: ridge;
+	padding:2px;
+	background: radial-gradient(black, transparent);
+}
+
+.submit-button{
+	background: green;
+	color: black;
+	font-size: 1.2rem;
+	border: none;
+	margin: 1px;
+	padding: 6px;
+	padding-top: 2px;
+}
+
+hr{
+	color: black;
+}
+
+.form-detail{
+	margin-top: 2rem;
+	font-weight: bold;
+	color: blue;
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 1.4rem;
+}
+
+#files-container{
+	width: 90%;
+	height: 80%;
+	overflow: auto;
+	background-color:slategray;
+	margin: auto;
+}
+
+.file{
+	width: 95%;
+	height: 15%;
+	margin: auto;
+	background: linear-gradient(45deg, black, #1dab84fc);
+	margin-top: 1.2rem;
+	display: flex;
+	justify-content: space-around;
+	padding: 0.8rem;
+}
+
+.file-name{
+	color: yellowgreen;
+	width: 80%;
+}
+
+.file-view-button{
+	background:linear-gradient(45deg, black, #d210a4); ;
+	width: 4rem;
+	height: 3rem;
+	text-align: center;
+}
+
+.file-view-button:hover{
+	opacity: 0.8;
+}
+
+.file a{
+	text-decoration: none;
+	color: lightgrey;
+	margin-top: 0.1rem;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

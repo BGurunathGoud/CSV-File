@@ -1,0 +1,19 @@
+{
+  "name": "csv-file",
+  "version": "1.0.0",
+  "description": "It is used to read the CSV file data and displays in tabular form",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "B Gurunath Goud",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "multer": "^1.4.4",
+    "nodemon": "^3.0.1"
+  }
+}
