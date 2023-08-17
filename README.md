@@ -1,7 +1,7 @@
 # CSV-File
 It is used to reads the CSV file data and displays its data in tabular form.
 
-## Technology used are
+## Technologies used are
 + ### Node Js
 + ### Express
 + ### Ejs
