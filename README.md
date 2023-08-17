@@ -12,7 +12,7 @@ It is used to reads the CSV file data and displays its data in tabular form.
 2. Install all the dependencies in VS code.
 3. Go to terminal if all packages are installed successfully.
 4. Set the correct directory path of the application.
-5. Run npm install. it will download the node modules dependencies.
+5. Run npm install, it will download the node modules dependencies.
 6. Run npm start, then the project starts to run on localhost port 7000.
 
 ## How to use app on web
